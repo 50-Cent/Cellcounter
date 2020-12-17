@@ -8,6 +8,6 @@ Brief: Cellcounter is a Deep learning model (CNN and an attention module), desig
 Cellcounter uses Pytorch to build deep learning models. It takes (MIP image with 'Z' depth/ MIP image without Z depth / image (not necessarily MIP) / Z-stack). All the images have to be gray-valued in .tif format. While running the code, it asks for which configuration to use. For example, for NeuN images, users are requested type the number that corresponds to 'NeuN'. 
 The code will finally give a colored image with red-dots marking the neuronal cell bodies. 
 
-In short, 
+The codes are zipped for Windows and Linux separately. 
 
 
