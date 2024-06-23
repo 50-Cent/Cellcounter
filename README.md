@@ -8,6 +8,6 @@ Brief: Neurocounter is a Deep learning model (CNN and an attention module), desi
 Neurocounter uses Pytorch to build deep learning models. It takes (MIP image with 'Z' depth/ MIP image without Z depth / image (not necessarily MIP) / Z-stack). All the images have to be gray-valued in .tif format. While running the code, it asks for which configuration to use. For example, for NeuN images, users are requested type the number that corresponds to 'NeuN'. 
 The code will finally give a colored image with red-dots marking the neuronal cell bodies. To access the packages, please click the 'master' branch instead of 'main'. You can see the word 'main' on this page. There is a downward arrow right next to 'main'. Once you click, you can access the 'master'. 
 
-The codes are zipped for Windows and Linux separately. 
+
 
 
