@@ -40,7 +40,7 @@ def my_gray2color(my_img):
     
     del ip_dim
     return op_img
-#%% Train a network
+#%% Train a network if needed
 
 mynet = buildNetwork() 
 net   = mynet.network
