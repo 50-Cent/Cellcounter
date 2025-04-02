@@ -58,7 +58,8 @@ net.to(dvce)
 
 
 
-#%%
+#%% Split input image as patches of dimension 64 X 64.
+#%%         the patches stored at 'Dataroot/testdata'. Create two empty folders 'Dataroot/test_regressLabel' and 'Dataroot/test_dottedLabel'.
 testdataobj = NeuronDataSet(root_path='Dataroot', dataDir='testData',\
                             regressLabel='test_regressLabel', dottedLabel='test_dottedLabel', \
                                 regStatus=False, dotStatus=False, augStatus=False,\
