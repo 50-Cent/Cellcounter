@@ -41,10 +41,14 @@ def my_gray2color(my_img):
     del ip_dim
     return op_img
 #%% Train a network if needed
+#%% Pre-trained configurations:
+#%%      PGBnSQwatn_4_best_weights.pt, PGBnSQwatn_5_best_weights (for tdTomato images)
+#%%      PGBnSQwatn_NeuN_5_best_weights.pt, PGBnSQwatn_NeuN_6_best_weights.pt (for NeuN images) 
+
 
 mynet = buildNetwork() 
 net   = mynet.network
-name_best_training_wgt = "PGBnSQwatn_4_best_weights" + ".pt"
+name_best_training_wgt = "PGBnSQwatn_4_best_weights" + ".pt" 
 wgt = os.path.join('CellCounter',name_best_training_wgt)
 net.load_state_dict(torch.load(wgt))
 dvce = torch.device("cuda" if torch.cuda.is_available() else "cpu")
