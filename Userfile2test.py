@@ -5,6 +5,14 @@ Created on Sat Feb  1 14:54:30 2025
 @author: Tamal
 """
 
+#%% Note:
+#%% the 'peak_local_max' function is not working correctly after an update to the function.
+#%% consider using islocalmax2.m (MATLAB) or create own localmax2.py.
+
+
+
+
+
 import matplotlib.pyplot as plt
 import torch
 import numpy as np
